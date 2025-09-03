@@ -1,0 +1,21 @@
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+    .main__title {
+        text-align: center;
+        margin: 20px 0;
+    }
+    
+    .main__my-love {
+        display: block;
+        font-size: 40px;
+    }
+    
+    .main__icon {
+        color: #F67C8C;
+    }
+}
