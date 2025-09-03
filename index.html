@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Моей малышке</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -13,12 +19,82 @@
 
     <section class="main">
         <h1 class="main__title"><span class="main__my-love">Привет Ангела!</span> Эта страничка создана только для тебя <i class="fa fa-heart main__icon"></i></h1>
+        <img src="images/hero.png" alt="" class="main__img">
+        
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Нажми на меня 
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p class="main__text">Эта небольшая страничка создана для того, чтобы порадовать мою милую леди. Я хочу, чтобы ты открывала её каждый раз, когда тебе грустно или когда ты скучаешь по мне. А ещё — как доказательство того, что я люблю тебя, и что мои слова никогда не бывают пустыми.</p>
+                </div>
+                </div>
+            </div>
+        </div>
     </section>
     
+    <section class="love">
+        <h2 class="title-primary">Немного фактов:</h2>
+        <div class="love__block">
+            <img src="images/img1.png" alt="" class="love__img">
+            <div class="love__text-box">
+                <h3 class="love__title">Ты супер:</h3>
+                <ul class="love__list">
+                    <li class="love__item"><i class="fa fa-heart main__icon love__icon"></i> <p class="love__text">Ты — как вайфай: без тебя всё скучно.</p></li>
+                    <li class="love__item"><i class="fa fa-heart main__icon love__icon"></i> <p class="love__text">У тебя внешность как у ангела.</p></li>
+                    <li class="love__item"><i class="fa fa-heart main__icon love__icon"></i> <p class="love__text">Моя любимая песня - твой голос.</p></li>
+                    <li class="love__item"><i class="fa fa-heart main__icon love__icon"></i> <p class="love__text">Ни что так меня не греет, как твое внимание.</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="love__block">
+            <div class="love__text-box">
+                <h3 class="love__title">Обожаю тебя:</h3>
+                <p class="love__text love__text_mt">Как же хотелось бы сейчас лежать с тобой на диване, устроившись у тебя между ног, и смотреть фильм, пока твоя рука нежно гладит мои волосы.</p>
+            </div>
+            <img src="images/img2.png" alt="" class="love__img">
+        </div>
+        <div class="love__block love__block-db">
+            <div class="love__text-box">
+                <h3 class="love__title love__title_tc">Запомни!</h3>
+                <p class="love__text love__text_mt"> Ты невероятно талантливая и добрая девушка, и я счастлив, что судьба свела меня с тобой.Что бы ты ни задумала — у тебя обязательно получится. Просто верь в себя так же сильно, как я верю в тебя. Люблю тебя… <span class="love__my-name">Твой Оппа</span></p>
+            </div>
+        </div>
+        
+        <div class="love__slider">
+            <img src="images/item1.jpg" alt="" class="love__slider-img">
+            <img src="images/item2.jpg" alt="" class="love__slider-img">
+            <img src="images/item3.jpg" alt="" class="love__slider-img">
+            <img src="images/item4.jpg" alt="" class="love__slider-img">
+            <img src="images/item5.jpg" alt="" class="love__slider-img">
+            <img src="images/item6.jpg" alt="" class="love__slider-img">
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <img src="images/logo.png" alt="" class="footer__logo">
+        <div class="footer__link-box">
+        <h3 class="footer__title">Автор:</h3>
+        <a href="#" class="footer__link"><i class="fa fa-telegram footer__icon"></i> rezerohikari</a>
+        </div>
+    </footer>
+ 
     
     <script src="js/jquery-3.7.1.min.js"></script>
     <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/slick.js"></script>
     <script src="js/script.js"></script>
+    
+    <script>
+        $('.love__slider').slick({
+            prevArrow: '<button class="love__btn-left"><i class="fa fa-chevron-left"></i></button>',
+            nextArrow: '<button class="love__btn-right"><i class="fa fa-chevron-right"></i></button>',
+        });
+    </script>
 </body>
 </html>

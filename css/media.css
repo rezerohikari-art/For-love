@@ -5,17 +5,17 @@
 @media (max-width: 767.98px) {}
 
 @media (max-width: 575.98px) {
-    .main__title {
-        text-align: center;
-        margin: 20px 0;
+    .footer__logo {
+        height: 37px;
     }
     
-    .main__my-love {
-        display: block;
-        font-size: 40px;
+    /* .love__block {
+        flex-direction: column;
+        align-items: center;
     }
     
-    .main__icon {
-        color: #F67C8C;
-    }
+    .love__slider-img {
+    height: 410px;
+    } */
+
 }

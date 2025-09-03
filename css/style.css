@@ -1,7 +1,6 @@
-* {
-    margin: 0;
+h1,h2,h3,h4,h5,h6,p,ul,ol {
     padding: 0;
-    box-sizing: border-box;
+    margin: 0;
 }
 
 ul, ol {
@@ -17,6 +16,183 @@ a,a:hover {
     max-width: 1110px;
 }
 
-body {
+body,
+.accordion-item {
+    background: #FFFAF5;
+    font-family: 'Comfortaa';
+}
+
+.main {
+    padding: 40px 0;
+    border-bottom: 5px solid #F67C8C;
+}
+
+.main__title {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 351px;
+}
+
+.main__my-love {
+    display: block;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.main__icon {
+    color: #F67C8C;
+}
+
+.main__img {
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.accordion-button {
+    padding: 20px 30px;
+    justify-content: center;
+    border: 5px solid #F67C8C;
+    background: none !important;
+    box-shadow: none;
+    margin: 0 auto;
+    color: #000 !important;
+    width: 90%;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.accordion-button .collapsed {
+    border-radius: 10px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 10px;
+    background: #F67C8C;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+.love {
+    padding: 40px 0 0 ;
+}
+
+.title-primary {
+    font-size: 30px;
+    text-align: center;
+}
+
+.love__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    padding: 0 15px;
+}
+
+.love__title {
+    font-size: 20px;
+}
+
+.love__img {
+    height: 164px;
+}
+
+.love__list {
+    font-size: 12px;
+}
+
+.love__item {
+    margin: 10px 0;
+    display: flex;
+}
+
+.love__icon {
+    margin: 2px 5px 0 0;
+}
+
+.love__text_mt {
+    margin-top: 15px;
+}
+
+.love__block-db {
+    display: block;
+}
+
+.love__title_tc {
+    text-align: center;
+    font-size: 27px;
+}
+
+.love__my-name {
+    display: block;
+    width: 130px;
+    margin-left: auto;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.love__slider-img {
+    height: 450px;
+}
+
+.love__btn-right,
+.love__btn-left {
+    position: absolute;
+    top: 47%;
+    padding: 20px;
+    border: 2px solid #F67C8C;
+    color: #000;
     background: #FFFAF5;
 }
+
+.love__btn-right {
+    right: 0;
+}
+
+.love__btn-left {
+    left: 0;
+    z-index: 2;
+}
+
+.footer {
+    background:  #010B13;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer__logo {
+    height: 45px;
+}
+
+.footer__link-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer__title {
+    font-size: 25px;
+    color: #FFB41F;
+    font-weight: 800;
+    margin-right: 20px;
+}
+
+.footer__link {
+    color: #FFB41F;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__icon {
+    margin-right: 4px;
+}
+
